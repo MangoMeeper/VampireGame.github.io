@@ -1,0 +1,273 @@
+@font-face {
+  font-family: "Candara";
+  src: url("../fonts/candara.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: "Candara";
+  src: url("../fonts/candara-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Candara";
+  src: url("../fonts/candara-italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Candara";
+  src: url("../fonts/candara-bold-italic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "First Order";
+  src: url("../fonts/first-order.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+body {
+  background-color: grey;
+}
+
+html {
+  font-size: 22px;
+  font-family: Candara, sans-serif;
+  line-height: 1.3;
+}
+
+body {
+  background-color: grey;
+  background-image: url(/Users/enriq/Documents/#Vampires/Website/Raven_files/background.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+main {
+  max-width: 768px;
+  margin: auto;
+}
+
+img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto .75em;
+  display: block;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid darkgray;
+  width: 70%;
+}
+
+h1, h2, h3 {
+  font-family: 'First Order';
+  line-height: 1.2;
+  margin: 0;
+}
+
+h1 small, h2 small, h3 small {
+  display: block;
+  color: dimgray;
+  font-size: .5em;
+}
+
+h1 {
+  font-size: 6.5vw;
+  text-align: center;
+  text-shadow: 0 0 .2em white;
+}
+
+@media (min-width: 750px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+ol, ul {
+  padding-left: 1.25em;
+}
+
+a {
+  text-decoration: none;
+  color: #f80000;
+}
+
+fieldset {
+  border: none;
+  border-top: 1px solid darkgray;
+  margin-top: .75em;
+}
+
+legend {
+  margin: 0 1em;
+  text-transform: lowercase;
+  font-size: .85em;
+  font-weight: 700;
+  color: black;
+}
+
+.index {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.index a {
+  display: block;
+  margin: 5px;
+  padding: .25em .5em;
+  background-color: #a02622;
+  border-radius: .25em;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  box-size: border-box;
+  max-width: 50%;
+}
+
+.index::after {
+  content: '';
+  display: block;
+  -webkit-box-flex: 1000;
+      -ms-flex-positive: 1000;
+          flex-grow: 1000;
+}
+
+.modal {
+  display: none;
+}
+
+.modal:target {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(77, 0, 0, 0.95);
+}
+
+.modal .modal-close {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 11;
+  background-image: url(/Users/enriq/Documents/#Vampires/Website/Raven_files/icon.jpg);
+  background-position: top right;
+  background-size: 2em 2em;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  padding: .5em;
+}
+
+.modal .modal-dialog {
+  position: relative;
+  z-index: 12;
+  background: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1em;
+  margin: 0 3em;
+  max-width: 750px;
+  max-height: 90%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.outline ol {
+  counter-reset: legal-list;
+  list-style-type: none;
+}
+
+.outline ol > li::before {
+  counter-increment: legal-list;
+  content: counters(legal-list, ".") " ";
+  color: silver;
+}
+
+cite {
+  display: block;
+  font-size: .85em;
+}
+
+footer {
+  text-align: center;
+  font-size: .8em;
+  color: dimgray;
+  margin: 2em 0;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:hover, footer a:focus {
+  text-decoration: underline;
+}
+
+@media (max-width: 590px) {
+  html {
+    font-size: 18px;
+  }
+  .modal .modal-close {
+    background-size: 1rem 1rem;
+  }
+  .modal .modal-dialog {
+    margin: 0px 1em;
+  }
+}

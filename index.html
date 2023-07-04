@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="">
+	<meta name="theme-color" content="#ffffff">
+	<title>Vampire Game</title>
+	<link href="Raven_files/main.css" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="Raven_files/icon.jpg">
+	<link rel="icon" type="image/png" sizes="32x32" href="Raven_files/icon.jpg">
+	<link rel="icon" type="image/png" sizes="16x16" href="Raven_files/icon.jpg">
+	<link rel="manifest" href="">
+	<link rel="mask-icon" href="" color="#5bbad5">
+	<style>
+		body {
+		  background-image: url('Raven_files/background.jpg');
+		}
+		</style> 
+</head>
+	<body>
+		<main>
+			<h1><b>Vampire Game</b></h1>
+		
+			<fieldset class="index">
+				<legend>The Rules</legend>
+				<a href="#att">Attributes</a>
+				<a href="#roll">Rolls</a>
+				<a href="#boon">Boons and Banes</a>
+				<a href="#chi">Character Sheet Info</a>
+				<a href="#iad">Injury and Death</a>
+				<a href="#aff">Afflictions</a>
+				<a href="#rp">Roleplay General</a>
+				<a href="#gen">Combat General</a>
+				<a href="#mov">Movement General</a>
+				<a href="#pc">Other</a>
+			</fieldset>
+
+			<fieldset class="index">
+				<legend>Actions</legend>
+				<a href="#atta">Attack</a>
+				<a href="#castaspell">Cast a Spell</a>
+				<a href="#defend">Defend</a>
+				<a href="#eame">End a Magical Effect</a>
+				<a href="#Find">Find</a>
+				<a href="#Help">Help</a>
+				<a href="#Hide">Hide</a>
+				<a href="#Hinder">Hinder</a>
+				<a href="#Overcome">Overcome</a>
+				<a href="#Run">Run</a>
+				<a href="#Stabilize">Stabilize</a>
+				<a href="#Steal">Steal</a>
+				<a href="#Throw">Throw</a>
+				<a href="#Use a Talent or Trait">Use a Talent or Trait</a>
+				<a href="#Use an Item">Use an Item</a>
+				<a href="#Do Something Else">Do Something Else</a>
+				<a href="#ac">Advance Combat</a>
+			</fieldset>
+
+			<fieldset class="index">
+				<legend>Reactions</legend>
+				<a href="#Catch">Catch</a>
+				<a href="#Cover Ally">Cover Ally</a>
+				<a href="#Dodge">Dodge</a>
+				<a href="#Free Attack">Free Attack</a>
+				<a href="#Take the Initiative">Take the Initiative</a>
+				<a href="#Withstand">Withstand</a>
+			</fieldset>
+
+		</main> <!--Start-->
+
+		<div class="modal" id="att">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Attributes</h2>
+				 All characters, most creatures, and some objects
+					make use of a set of four attributes to describe
+					their most fundamental capabilities. The
+					attributes are: Strength, Agility, Intellect, and Will. <p></p>
+
+					<h2>Strength</h2>
+Strength represents muscle power, durability,
+certain forms of athletic ability, and overall fitness.
+You make a Strength roll to resist an effect that
+forces you to move or that restrains you, as well as
+when you climb, swim, <a href="#atta"><b>attack</b></a> with most hand-tohand
+weapons, kick down a door, or overpower
+another creature. You also use Strength to
+withstand or fight off the effects of pain, injury,
+poison, or infection. <p></p>
+
+<h2>Agility</h2>
+Agility encompasses poise, dexterity, balance, and
+reflexes. You make an Agility roll when you want
+to keep your balance, perhaps because someone
+has just shoved you or you are moving across
+challenging terrain. Agility also comes Into play
+when you would try to accomplish a task that
+requires manual dexterity, such as picking a lock,
+disarming a trap, or performing an act of
+legerdemain.<p></p>
+
+<h2>Intellect</h2>
+Intellect measures of intelligence, wit, memory,
+and knowledge. You make an Intellect roll to
+thwart an effort to deceive you, decipher a coded
+message, or outwit another creature. Intellect also
+affects your ability to use some forms of magic
+successfully.<p></p>
+
+<h2>Will</h2>
+Will describes courage, willpower, resolve, and
+mental fortitude. You make a Will roll to resist an
+effort to erode your confidence, manipulate your
+emotions, or terrify you. As with Intellect, Will is
+also needed to use some forms of magic
+successfully.<p></p>
+			</div>
+			</div>
+
+		<div class="modal" id="roll">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Rolls</h2>
+				Roll a d20, add
+					the modifier for your <a href="#att"><b>attribute</b></a>, and then compare
+					the result to the target number. You get a success if
+					the result equals or exceeds the target number or
+					a failure if it doesn't. <p></p>
+
+					<h2>Luck Rolls</h2>
+			
+				Sometimes, the rules or Sage calls for a luck roll to
+see what happens. A luck roll uses no <a href="#att"><b>attribute</b></a>, so
+its just a roll of a d20. Since you never make a luck
+roll against a creature or object, the target is
+always 10.
+			</div>
+		</div>
+
+		<div class="modal" id="boon">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Boons and Banes</h2>
+				A boon is an advantageous circumstance that
+					improves your chance of success. For each boon
+					that applies, you roll a boon die, which is a d6. You
+					then add the highest number rolled on any one of
+					the d6s to your <a href="#att"><b>attribute</b></a> roll.
+					<p></p>
+					A bane is a disadvantage that reduces your
+					chance of success. For each bane that applies, you
+					roll a bane die, which is a d6. You then subtract the
+					highest number rolled on any one of the d6s from
+					your <a href="#att"><b>attribute</b></a> roll.<p></p>
+					Boons and banes cancel each other out on a one-for-one basis before any boon dice or bane dice
+					are rolled.
+			</div>
+		</div>
+
+		<div class="modal" id="chi">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				
+				 <h2>Health</h2>
+					Health describes how much damage a creature or
+					object can take. It represents one’s durability,
+					resilience, stamina, and ability to avoid lasting
+					injury from being attacked. You have a maximum
+					Health score, which tells you the maximum
+					damage a creature or object can take, with any
+					damage taken in excess of the Health score
+					ignored, and a current Health score, which reflects
+					gains and losses to Health. <p></p>
+					Many effects can change your Health score, which
+enables you to take more damage before falling
+down, or less, which makes you more fragile.
+Changes to your Health score affect your
+maximum damage total. <p></p>
+
+<h2>Damage</h2>
+
+Damage describes attrition done to your person
+from a harmful effect. You keep a running total of
+damage accumulated. Your damage total can be as
+low as 0 or as high as your Health score. When you
+take damage, you add the amount to your damage
+total. When you heal damage, subtract the amount
+from your damage total. <p></p>
+
+<h2>Defense</h2>
+Defense shows how reflexes, combat training,
+instinct, and protective equipment contribute to a
+creature or object’s ability to escape harm from
+attacks. <p></p>
+
+<h2>Bonus Damage</h2>
+					 If you chose a path that grants bonus damage, you
+						can apply the bonus damage as extra damage once
+						per <a href="#gen"><b>round</b></a> when you succeed on a roll to <a href="#atta"><b>attack</b></a>
+						and use a weapon or a natural weapon (though
+						not improvised weapons or unarmed attacks).
+						Simply roll the dice from the bonus damage and
+						add it to the damage dealt by the <a href="#atta"><b>attack</b></a>. Some
+						weapon properties limit on how much bonus
+						damage you can apply to an <a href="#atta"><b>attack</b></a>.
+
+
+			</div>
+			</div>
+
+		<div class="modal" id="iad">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Injured</h2>
+				
+You are injured if your <a href="#chi"><b>damage</b></a> total equals or
+exceeds half your <a href="#chi"><b>Health</b></a> score. Typically, you
+suffer no effects from being injured, but certain
+talents, spells, and other effects used against you
+might put you at a disadvantage because you're
+injured. <p></p>
+<h2>Incapacitated</h2>
+When your <a href="#chi"><b>damage</b></a> total equals your <a href="#chi"><b>Health</b></a> score,
+you fall <a href="#aff"><b>prone</b></a> and become incapacitated. While
+you’re incapacitated, you are unconscious. If you
+take any <a href="#chi"><b>damage</b></a> while incapacitated, you lose
+<a href="#chi"><b>Health</b></a> equal to the <a href="#chi"><b>damage</b></a> you took. <p></p>
+If you're incapacitated at the end of the <a href="#gen"><b>round</b></a>,
+lose 1d6 <a href="#chi"><b>Health</b></a> and make a <a href="#roll"><b>luck</b></a> roll. On a success,
+you heal 1 <a href="#chi"><b>damage</b></a>, and you are no longer
+incapacitated. On a failure, you remain
+incapacitated. <p></p>
+
+<h2>Unconscious</h2>
+You cannot use actions or <a href="#gen"><b>reactions</b></a>. Your Speed
+drops 0 and you cannot benefit from increases to
+Speed until this <a href="#aff"><b>affliction</b></a> ends. You receive no
+information from your senses. You grant 3 <a href="#boon"><b>boons</b></a>
+on rolls against you, and you automatically fail all
+<a href="#att"><b>attribute</b></a> rolls.<p></p>
+
+When you take <a href="#chi"><b>damage</b></a>, you first lose <a href="#chi"><b>Health</b></a>
+equal to the amount of <a href="#chi"><b>damage</b></a> you would take
+and then take the <a href="#chi"><b>damage</b></a>. For example, if you
+have <a href="#chi"><b>Health</b></a> 12 and take 6 <a href="#chi"><b>damage</b></a> while you are
+unconscious, you would reduce your <a href="#chi"><b>Health</b></a> to 6
+and then take 6 <a href="#chi"><b>damage</b></a>, which would cause you to
+become incapacitated. <p></p>
+
+<h2>Death</h2>
+If you die and the cause of death does not destroy
+your body, your remains become an object with
+<a href="#chi"><b>Health</b></a> 20. Remains of organic material
+decay, losing 1d6 <a href="#chi"><b>Health</b></a> (or more in warm, moist
+conditions) each day until they completely rot
+away. If an effect would restore you to life, any loss
+of <a href="#chi"><b>Health</b></a> to your corpse acts as a permanent
+reduction to your <a href="#chi"><b>Health</b></a> score, reflecting the
+ravages of decay, lost body parts, and so on.
+			</div>
+			</div>
+
+		<div class="modal" id="aff">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Afflictions</h2>
+				Harmful effects bestow afflictions, which limit
+				what you can do on your turn, make certain rolls
+				more difficult, or both. You can gain the same
+				affliction multiple times, provided the affliction
+				comes from a different source, and you must
+				remove each instance of the affliction separately.<p></p>
+
+				<h2>Asleep</h2>
+If you are <a href="#iad"><b>unconscious</b></a> because you are sleeping
+naturally, you stop being <a href="#iad"><b>unconscious</b></a> when a
+creature uses an action to shake you, kick you, or
+do something else to waken you. A loud noise
+might remove the affliction if you succeed on a
+<a href="#roll"><b>luck</b></a> roll. Time spent sleeping counts as resting for
+the purpose of healing <a href="#chi"><b>damage</b></a>. If your sleep is uninterrupted, you wake
+up naturally whenever you choose hours after you
+fall asleep. <p></p>
+				
+				<h2>Blinded</h2>
+You cannot see and thus have line of sight to
+nothing. If you would <a href="#atta"><b>attack</b></a> or interact with
+anything, you must guess the target’s location or
+locate the target using other senses. Finally, you
+halve your Speed.<p></p>
+
+<h2>Confused</h2>
+You become unable to make sense of what is
+happening around you. You cannot use <a href="#gen"><b>reactions</b></a>,
+you grant 1 <a href="#boon"><b>boon</b></a> on rolls against you, and you
+make <a href="#att"><b>Intellect</b></a> and <a href="#att"><b>Will</b></a> rolls with 1 <a href="#boon"><b>bane</b></a>.<p></p>
+
+<h2>Controlled</h2>
+You fall under control of the source of this
+affliction. You take your turn when your controller
+does and it decides what you do on your turn. If
+you have already taken a turn when you gain this
+affliction, you take a turn as described during the
+next <a href="#gen"><b>round</b></a>.<p></p>
+
+<h2>Cursed</h2>
+You make <a href="#roll"><b>luck</b></a> rolls with 1 <a href="#boon"><b>bane</b></a>.<p></p>
+
+<h2>Deafened</h2>
+You cannot hear.<p></p>
+
+<h2>Frightened</h2>
+You fear the source of this affliction—a creature,
+an object, a space, or something else. While you
+have line of sight to the source of your fear, you
+make <a href="#att"><b>attribute</b></a> rolls with 1 <a href="#boon"><b>bane</b></a>, and you grant 1
+<a href="#boon"><b>boon</b></a> on <a href="#att"><b>attribute</b></a> rolls against you.<p></p>
+
+<h2>Held</h2>
+Your Speed drops to 0 and you cannot benefit from
+increases to your Speed until this affliction ends.<p></p>
+
+<h2>Impaired</h2>
+The impaired affliction affects the <a href="#att"><b>attribute</b></a>
+specified by the harmful effect, so you might be
+<a href="#att"><b>Strength</b></a> impaired or <a href="#att"><b>Intellect</b></a> impaired, for
+instance. Your roll with 1 <a href="#boon"><b>bane</b></a> when using the
+specified <a href="#att"><b>attribute</b></a>, and you grant 1 <a href="#boon"><b>boon</b></a> on rolls
+against the specified <a href="#att"><b>attribute</b></a>.<p></p>
+
+<h2>On Fire</h2>
+You catch fire. You take 1d6 <a href="#chi"><b>damage</b></a> at the end of
+each <a href="#gen"><b>round</b></a> until the fire is extinguished, which is
+normally accomplished with a successful <a href="#roll"><b>luck</b></a> roll. You can also use an action to
+overcome the flames by making a successful
+<a href="#att"><b>Agility</b></a> roll or by using an action to douse the
+flames with water or smother them with a blanket 
+or similar object. A creature that drops prone
+before trying to overcome the flames makes the
+roll with 1 <a href="#boon"><b>boon</b></a>.<p></p>
+
+<h2>Poisoned</h2>
+You have been exposed to venom, poison, or some
+other toxin. You make <a href="#att"><b>attribute</b></a> rolls with 1 <a href="#boon"><b>bane</b></a>,
+and you grant 1 <a href="#boon"><b>boon</b></a> on rolls against you. In
+addition, at the end of each <a href="#gen"><b>round</b></a>, you lose 1d6
+<a href="#chi"><b>Health</b></a>.<p></p>
+
+<h2>Prone</h2>
+You are lying on the ground. You cannot use
+<a href="#gen"><b>reactions</b></a>. You grant 1 <a href="#boon"><b>boon</b></a> on rolls made to <a href="#atta"><b>attack</b></a>
+you with melee weapons, but impose 1 <a href="#boon"><b>bane</b></a> on
+rolls made to <a href="#atta"><b>attack</b></a> you with ranged weapons. You
+can use your move to crawl or stand up only.<p></p>
+
+<h2>Stunned</h2>
+You cannot use actions or <a href="#gen"><b>reactions</b></a>. Your Speed
+drops to 0 and you cannot benefit from increases
+to Speed until this affliction ends. You grant 2
+<a href="#boon"><b>boons</b></a> on rolls against you, and you make <a href="#att"><b>attribute</b></a>
+rolls with 2 <a href="#boon"><b>banes</b></a>.<p></p>
+
+<h2>Weakened</h2>
+You make <a href="#att"><b>Strength</b></a> and <a href="#att"><b>Agility</b></a> rolls with 1 <a href="#boon"><b>bane</b></a>,
+and you grant 1 <a href="#boon"><b>boon</b></a> on rolls against your
+<a href="#att"><b>Strength</b></a> and <a href="#att"><b>Agility</b></a>. In addition, you halve your
+Speed, and you derive no benefit from increases to
+your Speed.
+			</div>
+			</div>		
+
+		<div class="modal" id="rp">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Disposition</h2>
+How a person sees you, whether they like you or
+not, can go a long way toward deciding whether
+they are willing to help you. A friendly person is
+more likely to do you a favor than will an
+indifferent one. Creatures you meet have a
+disposition toward you, other characters in your
+group, and other people as well. The dispositions
+follow: <p></p>
+<b>Friendly</b> The person likes you and helps you if
+they can. <br>
+<b>Indifferent</b> The person has no opinion toward
+you, one way or the other. <br>
+<b>Unfriendly</b> The person dislikes you and helps
+you only if they have no choice.<p>
+
+</p>
+<h2>Reading Dispositions</h2>
+Unless a person has some reason to hide their
+disposition, how they see you should be evident in
+what they say and how they act around you. If a
+person hides their true feelings from you, the Sage
+might make <a href="#att"><b>Will</b></a> rolls for the person to see if they
+can keep their true feelings to themselves. Rather
+than ask to make a roll, spend time with the
+character in question, observe them, and talk to
+them. The truth will come out eventually. Magic
+might also reveal a person’s true feelings.
+<p>	</p>
+
+<h2>Social Challenges</h2>
+A social challenge happens whenever you cause
+another creature to behave in a certain way by
+using conversation. The desired behavior
+responsible for the social challenge can be almost
+anything, from the revelation of a secret to some
+action you want the subject to perform. In each
+case, though, the behavior represents something
+the person would not normally do, from risks,
+disinterest, or dislike. <p></p>
+
+<table>
+	<tr>
+	  <th>Challenge</th>
+	  <th>Description</th>
+	  
+	</tr>
+	<tr>
+	  <td>Transaction</td>
+	  <td>You offer something in return for a
+		good or service.</td>
+	  
+	  
+	  
+	</tr>
+	<tr>
+	  <td>Demonstration</td>
+	  <td>You present your objectives to an
+		audience to sway their opinion.</td>
+	</tr>
+	<tr>
+	  <td>Argument</td>
+	  <td>You debate with another to convince
+		others to your way of thinking.</td>
+	</tr>
+	<tr>
+	  <td>Alliance</td>
+	  <td>You present the benefits of
+		cooperation.</td>
+	</tr>
+	<tr>
+	  <td>Coercion</td>
+	  <td>You use threats and violence to get
+		what you want.</td>
+	</tr>
+	
+  </table>
+
+
+
+			</div>
+			</div>
+
+		<div class="modal" id="gen">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Battlefield</h2>
+				A combat takes place on a battlefield, a place large
+enough to encompass all the combatants. The Sage describes the battlefield
+before the combat begins and notes any obvious
+features and threats present. The Sage
+will sketch out the battlefield into
+discrete zones to give you a visual representation. <p></p>
+
+<h2>Turns</h2>
+Each round, all the combatants under the Sage’s
+control take their turns first, acting in any order
+the Sage chooses. Each combatant must complete
+its turn before another can take its turn. The Sage can change the order in which these combatants
+resolve their turn each round. <p></p>
+Once all combatants under the Sage’s control
+have taken their turns, the players take their turns.
+Players can declare they are taking their turns in
+any order they like each round. <p></p>
+
+<h2>Reactions</h2>
+Each combatant can act out of turn just once each
+round by using a reaction. <p></p>
+
+<h2>Combat Circumstances</h2>
+				Certain circumstances can make attacking harder
+					or easier. The following situations represent those
+					most commonly encountered in a fight. <p></p>
+
+					<b>Surrounded Target</b> When you make a melee
+<a href="#atta"><b>attack</b></a> against a target that has been attacked by
+an ally using a melee weapon in the same round,
+you roll with 1 <a href="#boon"><b>boon</b></a>.<p></p>
+
+<b>Long Range Shooting</b> When you make a ranged
+<a href="#atta"><b>attack</b></a> you can target a creature beyond your
+weapon’s range, but no more than twice its range.
+You roll to <a href="#atta"><b>attack</b></a> with 1 <a href="#boon"><b>bane</b></a>. <p></p>
+
+<b>High Ground</b> When you occupy a space higher
+than that occupied by the target of your <a href="#atta"><b>attack</b></a>,
+you roll with 1 <a href="#boon"><b>boon</b></a>. <p></p>
+
+<b>Within Reach of an Enemy</b> If you make a
+ranged <a href="#atta"><b>attack</b></a> while in the reach of at least one
+enemy, you roll with 1 <a href="#boon"><b>bane</b></a>. <p></p>
+
+<b>Obscurement</b> You roll to <a href="#atta"><b>attack</b></a> with 1 <a href="#boon"><b>bane</b></a>
+while you are in an area affected by obscurement
+of any kind. <p></p>
+
+<b>Invisible</b> If you can’t see the target, but have a
+general idea about the target’s location, you roll
+with 3 <a href="#boon"><b>banes</b></a>. <p></p>
+
+<b>Cover</b> A target positioned behind an obstacle of
+its size or larger (which can be a creature or an
+object) has partial cover from enemies that can
+see any part of its body, but not all of it. Partial
+cover imposes 1 <a href="#boon"><b>bane</b></a> on rolls against the covered
+target’s <a href="#chi"><b>Defense</b></a> and <a href="#att"><b>Agility</b></a>, and grants the target
+1 <a href="#boon"><b>boon</b></a> on <a href="#att"><b>Agility</b></a> rolls made to resist harmful
+effects originating from beyond cover. <p></p>
+A target has total cover from enemies if there is
+no line of sight to it because the target is behind an
+obstacle and cannot be seen by an enemy. Such a
+target cannot be directly attacked or affected by an
+effect unless the rules say otherwise. Instead,
+attacks against the target strike the obstacle. If the
+obstacle is destroyed as a result, any additional
+<a href="#chi"><b>damage</b></a> dealt by that <a href="#atta"><b>attack</b></a> or effect is applied to
+whatever was behind the obstacle. <p></p>
+Note that these rules apply in situations when
+an attacker cannot position itself to get a clear
+shot against a target. <p>	</p>
+			</div>
+			</div>
+
+		<div class="modal" id="mov">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Moves</h2>
+You can move a number of yards equal to your
+Speed score using your primary mode of
+locomotion—walking, rolling, slithering, or
+fluttering.
+You can spend yards of movement to move in
+special ways.<p></p>
+
+<b>Climb</b>
+You can climb surfaces that have handholds and
+footholds, or when you have a rope. For every 2
+yards of movement you expend, you can climb up,
+down, or across a distance of 1 yard.<p></p>
+
+<b>Crawl</b>
+You crawl while <a href="#aff"><b>prone</b></a>. For every 2 yards of
+movement, you crawl 1 yard across a surface on
+which you lay <a href="#aff"><b>prone</b></a>.<p></p>
+
+<b>Drop Prone</b>
+You can expend 1 yard of movement to drop to the
+surface on which you are standing. You become
+<a href="#aff"><b>prone</b></a>.<p></p>
+
+<b>Fly</b>
+If you can fly, thanks to a trait, magical talent, or
+spell, you can fly 2 yards for yard of movement you
+expend. Once airborne, you remain so until you
+land, the effect enabling your ability fly ends, or
+something causes you to land. <p></p>
+
+<b>Jump and Leap</b>
+You can expend 2 yards of movement to jump or
+leap. <p></p>
+
+<b>Mount and Dismount</b>
+You can expend 3 yards of movement to mount a
+friendly Mount within reach or dismount a Mount
+you are riding. When you
+dismount, you move from the creature’s space into
+an empty space of your choice within 1 yard of the
+mount. <p></p>
+
+<b>Retreat</b>
+When you are in the reach of an enemy, you can
+retreat to safely move out of its reach. For each
+yard you would move, expend 1 additional yard of
+movement, preventing the enemy from making a
+<a href="#Free Attack"><b>free attack</b></a> against you. <p></p>
+
+<b>Sneak</b>
+You attempt to move without making much, if any,
+sound. For every 2 yards of movement you spend,
+you sneak 1 yard across the surface on which you
+are standing.<p></p>
+
+<b>Stand Up</b>
+If you are <a href="#aff"><b>prone</b></a>, you can expend 4 yards of
+movement to stand up, thus ending the <a href="#aff"><b>prone</b></a>
+<a href="#aff"><b>affliction</b></a>.<p></p>
+
+<b>Swim</b>
+You can swim in just about any liquid, though
+immersing yourself in acid or toxic goo is never a
+good idea. For every 2 yards of movement you
+expend, you swim 1 yard in any direction inside
+the liquid.<p></p>
+
+<b>Teleportation</b>
+Magical effects can transport you, along with
+whatever you are wearing and carrying, from one
+place to another in an instant. When you appear in
+the new location, you do so in the same
+orientation and posture had when you left the
+previous position. <P></P>
+
+<h2>Movement Activities</h2>
+You can spend movement to perform minor
+activities chosen from the following options by
+expending 2 yards of movement for each activity:<br>
+• Open an unlocked door, open a chest, or some
+other container in your reach.<br>
+• Retrieve an item from your backpack or some
+other container you carry.<br>
+• Pick something up off the ground.<br>
+• Pull a lever or interact with an object in reach.<br>
+• Any other physical activity that involves
+movement and does not require an <a href="#att"><b>attribute</b></a> roll
+either to perform it or resist it.<br><p></p>
+
+<h2>Movement Complications</h2>
+Various complications, coming from effects that
+target you or from the nature of your
+environment, might restrict your movement. <p></p>
+
+<b>Being Moved</b>
+An effect that forces you to move propels you in
+the direction and to the distance indicated unless
+you encounter an obstacle that prevents you from
+continuing to move. If being moved would expose
+you to peril, such as pushing you over the edge of a
+cliff or into a fire, you can make a <a href="#roll"><b>luck</b></a> roll and, on
+a success, you drop <a href="#aff"><b>prone</b></a> at the edge of the
+danger. Being moved in this way does not enable
+enemies to make <a href="#Free Attack"><b>free attack</b></a> against you.<p></p>
+
+<b>Moving Out of Reach</b>
+If you move out of the reach of one or more
+enemies, you trigger a <a href="#Free Attack"><b>free attack</b></a> from each
+enemy whose reach you leave. <p></p>
+
+</div></div>
+
+		<div class="modal" id="pc">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Rest</h2>
+Characters have many ways to heal <a href="#chi"><b>damage</b></a> and
+regain <a href="#chi"><b>Health</b></a>. They might avail themselves of
+poultices, elixirs, spells, talents, and other game
+effects. But the most reliable way to recover from
+injuries comes from resting. <p></p>
+Resting allows you to heal <a href="#chi"><b>damage</b></a> and regain
+expended resources. If you have uninterrupted
+rest for 8 consecutive hours, you heal all <a href="#chi"><b>damage</b></a>,
+and you regain <a href="#chi"><b>Health</b></a> equal one-tenth your
+normal <a href="#chi"><b>Health</b></a> score (round down). Some of your
+other resources might also be replenished after a
+rest. If you stop resting to use an action or
+<a href="#gen"><b>reactions</b></a>, the time you have spent continuously
+resting is wasted and you must start resting again
+to gain any benefit from doing so.<p></p>
+
+<h2>Knowledge</h2>
+			 All people know how to do certain things and can
+				agree that some things count as facts. As a person
+				living in this world, you know the following things.
+				This list isn’t meant to be exhaustive; it sketches
+				out the parameters for what a typical person
+				ought to know.<br>
+				• How to build and maintain a fire. <br>
+				• How to forage for food.<br>
+				• How to dress and prepare meat from animal
+				you kill.<br>
+				• How to identify water that’s safe to drink.<br>
+• How to make use of all the equipment.<br>
+• How to maintain your equipment.<br>
+• The basic features of the land you inhabit
+and what’s around these lands.<br>
+• That magic exists. You also know the gods
+sometimes walk the lands and bestow
+powers onto their servants.<br>
+• A bit about the major religions, their
+doctrines, and their dogma.<br>
+• How to care for and feed an animal.<br>
+• How to conduct commerce.<br>
+• How to feed, clothe, bathe yourself, and tend
+to your other physical needs.<br>
+• How to read and write.<br>
+• The seasons and their passage, weather, the
+major constellations, and other phenomena
+related to living in a world.<br>
+• Identify common creatures you see.<br>
+• Anything else that a person would know
+who lives in a pre-industrial society.<br> <p></p>
+
+<h2>Professional Knowledge</h2>
+
+In addition to knowledge held in common with
+most other people, you also have knowledge
+related to your profession, as well as to the paths
+you have chosen.<p></p>
+
+<b>Stories and Legends</b> You can recall details
+about legendary members of your profession, as
+well as famous and infamous members of your
+profession from in and around the lands in which
+you live. If you are a blacksmith and have worked
+as a blacksmith in a particular town, you know if
+there’s a famous blacksmith the next town over.
+<p></p>
+
+<b>Tasks and Activities</b> You know how to perform
+tasks and activities directly related to your
+profession. If you’re a scribe, you know how to
+illuminate a manuscript. If you’re a poet, you can
+produce poetry. If you are a criminal, you can
+probably unlock a lock using lockpicks.
+For difficult tasks directly related to your
+profession, you and you alone can perform the
+task. A person who is not a forger could not
+produce a believable forgery, for example. In
+addition, when performing such tasks, the Sage
+might grant an automatic success or 1 <a href="#boon"><b>boon</b></a> or
+more to your <a href="#att"><b>attribute</b></a> roll.
+
+<p></p>
+<b>Competence</b> You count as being competent in
+any work you perform related to your profession.
+Between quests, if you can find work, you know
+how to perform in your profession with the ability
+to provide for yourself at a quality of life typical
+for a member of your profession.
+
+<p></p>
+<b>Eye for Quality</b> You can identify the quality of
+any good or service produced by a member of
+your profession. You can identify good writing if a
+writer, good or bad cooking as a cook, fine or
+terrible service if a servant.
+
+<p></p>
+<b>Tangential Benefits</b> Your profession might also
+grant benefits on tasks not directly related to your
+work at the Sage’s discretion. The benefit might
+make an impossible task possible for you, or make
+difficult tasks easier. The Sage might also reveal
+additional information in descriptions based on
+your expertise. <p></p>
+
+<h2>Deprivation</h2>
+If you are a living being, you need food and water
+to survive. If you go without either, you suffer
+deprivation until you expire. Normally, provisions
+and waterskins can keep these effects at bay, but if
+you run out of water or someone makes off with
+your food, you might be in trouble. You need to
+spend at least 1 hour each day eating at least two
+meals and drinking at least a half-gallon of water.
+A small creature requires half these quantities,
+while a large creature required four times these
+amounts or more.
+<p></p>
+Each day you go without drinking sufficient
+amounts of water, you lose 1d6 <a href="#chi"><b>Health</b></a>. Every two
+days you go without eating, you lose 1d6 <a href="#chi"><b>Health</b></a>. If
+your <a href="#chi"><b>Health</b></a> drops to 5 or lower, you fall <a href="#aff"><b>prone</b></a> and
+become <a href="#aff"><b>weakened</b></a> until your <a href="#chi"><b>Health</b></a> score
+increases above 5. While <a href="#aff"><b>weakened</b></a> in this way,
+you cannot stand up and can move only by
+crawling. <p></p>
+
+<h2>Sleep Deprivation</h2>
+You need sleep to refresh yourself. Unless your
+ancestry says otherwise, you need at least six
+hours of sleep every day. If you go a day without
+sleep, you become <a href="#aff"><b>weakened</b></a> until you do sleep.
+Every day you go without sleep thereafter, you
+take 1d6 <a href="#chi"><b>damage</b></a>.
+
+			</div>
+			</div>
+
+				<!--Actions-->
+
+		<div class="modal" id="atta">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Attack</h2>
+				You attack when you use a weapon, natural
+				weapon, improvised weapon, or an unarmed to
+				harm a creature or object.  <p></p>
+
+				<b>Weapons</b>
+				A weapon is an object constructed for the purpose
+				of harming others and includes swords, axes, and
+				the like. A weapon is either melee, for use in handto-
+				hand combat, or ranged. Many weapons have
+				properties that can affect how you use them.<p></p>
+
+				<b>Natural Weapons</b>
+				A natural weapon is part of the creature’s body
+				that can harm others. Examples include horns,
+				spiked tails, claws, and teeth. A creature with a
+				natural weapon is always wielding a melee
+				weapon and cannot be disarmed. For the purpose
+				of attacking with two weapons, natural weapons
+				count as off-hand weapons.<p></p>
+
+				<b>Improvised Weapons</b>
+				An improvised weapon is an object constructed
+				for a function other than harm but nevertheless
+				can cause injury. Examples include frying pans and
+				broken bottles. When you use an improvised
+				weapon to attack, you roll with 1 <a href="#boon"><b>bane</b></a>. If the result
+				of the roll is 0 or less or 20 or higher, the
+				improvised weapon breaks. An improvised
+				weapon deals 1d6 <a href="#chi"><b>damage</b></a> and derives no benefit
+				from <a href="#chi"><b>bonus</b></a> damage.
+			</div>
+			</div>
+
+		<div class="modal" id="castaspell">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Cast a Spell</h2>
+				You cast a spell you have learned, read from an
+					inscription, or from an object that contains the
+					spell. Some spells have special rules for their
+					casting and might let you cast them using a
+					<a href="#gen"><b>reactions</b></a> instead of an action.
+			</div>
+			</div>
+
+		<div class="modal" id="defend">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Defend</h2>
+				 Until the end of your next turn, the first time any
+					creature succeeds on a roll to <a href="#atta"><b>attack</b></a> you, make a
+					<a href="#roll"><b>luck</b></a> roll. On a success, you turn the creature’s
+					success into a failure.
+			</div>
+			</div>
+
+		<div class="modal" id="eame">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>End a Magical Effect</h2>
+				You end one magical effect you created with a
+				magical talent, spell, or object, provided you can
+				see the creature, object, or space affected by your
+				magic.
+			</div>
+			</div>
+
+		<div class="modal" id="Find">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Find</h2>
+				 You search the area within 5 yards of you for a
+					hidden creature, object, or some other feature. If
+					it’s there and you can perceive it, you find it.
+					Otherwise, you don’t. The Sage might decide also
+					that you must get a success on an <a href="#att"><b>Intellect</b></a> roll to
+					find the creature or object.
+			</div>
+			</div>
+
+		<div class="modal" id="Help">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Help</h2>
+				 Choose one creature within 5 yards. The creature
+					has 1 <a href="#boon"><b>boon</b></a> on its next <a href="#att"><b>attribute</b></a> roll before the
+					start of your next turn.
+			</div>
+			</div>
+
+		<div class="modal" id="Hide">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Hide</h2>
+				You attempt to hide from creatures that lacks line
+					of sight to you. Anything that blocks line of sight
+					enables your attempt—shadows, darkness, or
+					some covering object. Make an <a href="#att"><b>Agility</b></a> roll. On a
+					success, you become hidden until you are found or you do something that
+					would reveal yourself to other creatures. On a
+					failure, you do not become hidden.
+			</div>
+			</div>
+
+		<div class="modal" id="Hinder">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Hinder</h2>
+				 Choose one creature within 5 yards. The creature
+					has 1 <a href="#boon"><b>bane</b></a> on its next <a href="#att"><b>attribute</b></a> roll before the
+					start of your next turn.
+			</div>
+			</div>
+
+		<div class="modal" id="Overcome">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Overcome</h2>
+				If you have an <a href="#aff"><b>affliction</b></a> or suffer from some other
+					persistent effect that does not have a permanent
+					duration, you can make an <a href="#att"><b>attribute</b></a> roll to rid
+					yourself of it. The effect tells you what <a href="#att"><b>attribute</b></a> to
+					use (or, if not, the Sage decides). If the effect has a
+					luck ends duration, you make a <a href="#roll"><b>luck</b></a> roll instead.
+			</div>
+			</div>
+
+		<div class="modal" id="Run">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Run</h2>
+				 Triple your speed score until the end of your turn.
+			</div>
+			</div>
+
+		<div class="modal" id="Stabilize">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Stabilize</h2>
+				 You tend to one <a href="#iad"><b>incapacitated</b></a> creature in your
+					reach. The target heals 1d6 <a href="#chi"><b>damage</b></a>.
+			</div>
+			</div>
+
+		<div class="modal" id="Steal">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Steal</h2>
+				 If you have one hand free, you can attempt to take
+					something from one creature within your reach
+					that carries on its person one object you can see,
+					but is not carried in the creature’s hands. Make an
+					<a href="#att"><b>Agility</b></a> roll against the target’s <a href="#att"><b>Agility</b></a>. If you are
+					hidden from the target, you roll with 1 <a href="#boon"><b>boon</b></a>. On a
+					success, you take the object from the target.
+			</div>
+			</div>
+
+		<div class="modal" id="Throw">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Throw</h2>
+				You throw something you hold. If you hold the
+object to be thrown in one hand, you can throw it
+up to 10 yards from you. If you must hold the
+object in two hands, you can throw it up to 5
+yards. Aerodynamic objects intended for throwing,
+such as balls, travel up to three times as far hand.
+Generally, the object lands within 1d6 feet of
+where you intended it to land.
+<p></p>
+<b>Thrown Attacks</b>
+When you throw a weapon that has the thrown
+property, you resolve the effort as ranged <a href="#atta"><b>attack</b></a>.
+You can also throw object that are neither
+weapons nor are weapons with the thrown
+property, in which case the range is as described
+above, and you treat the <a href="#atta"><b>attack</b></a> as if you had made
+it using an improvised weapon. <p></p>
+<b>Toss</b>
+You can also toss an object to another creature
+within the ranges mentioned above so that
+another creature might catch it. Make an <a href="#att"><b>Agility</b></a>
+roll. On a success, the target can attempt to catch
+the object. n a failure, the object falls to
+the ground in a space of the Sage’s choosing within
+a few yards of where you intended the target to
+land.
+			</div>
+			</div>
+
+		<div class="modal" id="Use a Talent or Trait">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Use a Talent or Trait</h2>
+				You perform an activity granted by one of your
+					talents or traits. Note that some talents and traits
+					require the use of a <a href="#gen"><b>reactions</b></a> instead of an action.
+			</div>
+			</div>
+
+		<div class="modal" id="Use an Item">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Use an Item</h2>
+				You use an item that you wield such as a gadget,
+					trinket, or piece of gear. The item tells you what
+					happens as a result. Note that some items require
+					the use of a <a href="#gen"><b>reactions</b></a> instead of an action.
+			</div>
+			</div>
+
+		<div class="modal" id="Do Something Else">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Do Something Else</h2>
+				The activities described above represent the most
+					common performed in combat, but they are not
+					exhaustive. You could taunt an enemy into
+					attacking you or issue a nasty threat to demoralize
+					your foes or yank down a tapestry to cover your
+					opponents. It falls to the Sage to interpret how to
+					resolve these activities, but they involve, typically,
+					an <a href="#att"><b>attribute</b></a> roll or enabling targets to make an
+					<a href="#att"><b>attribute</b></a> or <a href="#roll"><b>luck</b></a> roll.
+			</div>
+			</div>
+
+		<div class="modal" id="ac">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				
+
+<h2>Attack Options</h2>
+Once per <a href="#gen"><b>round</b></a>, when you use an action to <a href="#atta"><b>attack</b></a>,
+you can avail yourself of one of the following
+<a href="#atta"><b>attack</b></a> options provided you meet the
+requirements for doing so. The option can alter
+different aspects of the <a href="#atta"><b>attack</b></a> in order to produce
+a different effect when you get a success on the
+roll. <p></p>
+<b>Aggressive Attack</b>  You can use this option
+when you <a href="#atta"><b>attack</b></a> with a weapon that has a onehanded
+or two-handed grip, and you would roll
+with at least 1 <a href="#boon"><b>boon</b></a> after accounting for <a href="#boon"><b>banes</b></a>.
+Before you roll to <a href="#atta"><b>attack</b></a>, discard any number of
+<a href="#boon"><b>boons</b></a> you have remaining, and then roll to <a href="#atta"><b>attack</b></a>.
+If the result is a success, add 1 to the <a href="#chi"><b>damage</b></a> for
+each <a href="#boon"><b>boon</b></a> discarded.<p></p>
+
+<b>Distracting Attack</b> You can use this option
+when you <a href="#atta"><b>attack</b></a> and you have at least one die of
+<a href="#chi"><b>bonus damage</b></a>. Roll to <a href="#atta"><b>attack</b></a>. On a success, the
+<a href="#atta"><b>attack</b></a> deals one less die of <a href="#chi"><b>damage</b></a>, but the target
+grants 1 <a href="#boon"><b>boon</b></a> on the next roll to <a href="#atta"><b>attack</b></a> it before
+the start of your next turn. <p></p>
+
+<b>Driving Attack</b> You can use this option when
+you <a href="#atta"><b>attack</b></a> with a weapon that has a one-handed
+or two-handed grip or you <a href="#atta"><b>attack</b></a> with any weapon
+while you have a shield equipped, and you have at
+least one die of <a href="#chi"><b>bonus damage</b></a>. Roll to <a href="#atta"><b>attack</b></a>. On a
+success, the <a href="#atta"><b>attack</b></a> deals one less die of <a href="#chi"><b>damage</b></a>,
+but you push the target a number of yards from
+you equal to your <a href="#att"><b>Strength</b></a> modifier – its size
+(minimum o).<p></p>
+
+<b>Feinting Attack</b> You can use this option when
+you <a href="#atta"><b>attack</b></a> when you wield weapon with a onehanded
+or off-handed grip, but not a two-handed
+grip. Make the <a href="#atta"><b>attack</b></a> roll with 1 <a href="#boon"><b>bane</b></a>. On a
+success, the <a href="#atta"><b>attack</b></a> deals half <a href="#chi"><b>damage</b></a>, but you
+become Slippery until the end of your turn. <p></p>
+
+<b>Guarded Attack</b> You can use this option when
+you <a href="#atta"><b>attack</b></a> while you are equipped with a shield or
+you have a weapon in your off-hand. Make the
+<a href="#atta"><b>attack</b></a> roll. On a success, the <a href="#atta"><b>attack</b></a> deals half
+<a href="#chi"><b>damage</b></a>, but you impose 1 <a href="#boon"><b>bane</b></a> on rolls to <a href="#atta"><b>attack</b></a>
+you until the start of your next turn. The benefit
+ends early if you become <a href="#aff"><b>confused</b></a>, <a href="#aff"><b>held</b></a>, <a href="#aff"><b>stunned</b></a>,
+or <a href="#iad"><b>unconscious</b></a>.<p></p>
+
+<b>Lunging Attack</b> You can use this option when
+you wield a weapon that has one-handed or twohanded
+grip. You can increase your reach by 1
+yard for the purpose of choosing a target for the
+<a href="#atta"><b>attack</b></a> you make with the weapon you are wielding. However, on a success, the <a href="#atta"><b>attack</b></a> deals
+half <a href="#chi"><b>damage</b></a>.<p></p>
+
+<b>Vicious Attack</b> You can use this option when
+you <a href="#atta"><b>attack</b></a> and you have at least one die of bonus
+damage. Roll to <a href="#atta"><b>attack</b></a>. On a success, the <a href="#atta"><b>attack</b></a>
+deals one less die of <a href="#chi"><b>damage</b></a>, but the target makes
+its next roll to <a href="#atta"><b>attack</b></a> before the start of your next
+turn with 1 <a href="#boon"><b>bane</b></a>.<p></p>
+
+<h2>Unarmed Attacks</h2> 
+					There are several ways to make an unarmed
+					<a href="#atta"><b>attack</b></a>, each of which are described below. <p></p>
+					<b>Unarmed Strike</b>
+You punch, kick, elbow, or headbutt. Choose one
+creature in reach. Make a <a href="#att"><b>Strength</b></a> roll with 1 <a href="#boon"><b>bane</b></a>
+against the target’s <a href="#chi"><b>Defense</b></a>. On a success, the
+target takes 1d6 <a href="#chi"><b>damage</b></a>. If the target is larger
+than you, it instead takes 1 <a href="#chi"><b>damage</b></a>.
+					<p> <b>Shove</b>
+						You attempt to shove a creature away from you.
+						Choose one creature in reach whose size is no
+						more than 2 higher than yours. Make a <a href="#att"><b>Strength</b></a>
+						roll against the target’s <a href="#att"><b>Strength</b></a>. You roll with 1
+						<a href="#boon"><b>boon</b></a> if you are using a shield and 1 <a href="#boon"><b>boon</b></a> if you
+						moved at least 5 yards before you make the
+						attempt. On a success, you push the target a
+						number of yards away from you equal to your
+						<a href="#att"><b>Strength</b></a> modifier (minimum 1). If the target is
+						larger than you, it moves half the distance
+						(minimum 0) instead. If the result of your roll is 20
+						or higher, the target falls <a href="#aff"><b>prone</b></a>.
+
+						<p></p>
+						<b>Trip</b>
+						You attempt to knock a creature to the ground.
+Choose one creature in your reach whose size is
+no more than 2 higher than yours. Make an <a href="#att"><b>Agility</b></a>
+roll against the target’s choice of <a href="#att"><b>Strength</b></a> or
+<a href="#att"><b>Agility</b></a>. If you are using a shield, you roll with 1
+<a href="#boon"><b>boon</b></a>. On a success, the target falls <a href="#aff"><b>prone</b></a>. If the
+result of your roll is 20 or higher, the target’s
+Speed drops to 0 until the start of your next turn. <p></p>
+<b>Grab</b>
+You try to grab a creature. Choose one creature in
+your reach whose size is no more than 1 higher
+than yours. Make a <a href="#att"><b>Strength</b></a> or <a href="#att"><b>Agility</b></a> roll against
+the target's <a href="#att"><b>Agility</b></a>. You succeed automatically
+against a <a href="#aff"><b>held</b></a> creature. On a success, the target
+becomes <a href="#aff"><b>held</b></a> until the end of your next turn. The
+<a href="#aff"><b>affliction</b></a> ends early if you release the target,
+which you can do freely. The effect also ends if you
+move away from the target without dragging it
+(see Drag) or you become <a href="#aff"><b>confused</b></a>, <a href="#aff"><b>controlled</b></a>,
+<a href="#aff"><b>stunned</b></a>, or <a href="#iad"><b>unconscious</b></a>.
+If you have a target grabbed, you can use an
+action extend the duration until the end of your
+next turn.
+<p></p>
+<b>Drag</b>
+You attempt to pull a creature you have <a href="#aff"><b>held</b></a> with
+you. Make a <a href="#att"><b>Strength</b></a> roll against the <a href="#att"><b>Strength</b></a> of a creature <a href="#aff"><b>held</b></a> by your successful grab. On a
+success, you move as normal and the creature
+moves with you. <p></p>
+
+<b>Wrestle</b>
+You attempt to wrestle down a creature you have
+grabbed. Make a <a href="#att"><b>Strength</b></a> or <a href="#att"><b>Agility</b></a> roll against the
+target’s choice of <a href="#att"><b>Strength</b></a> or <a href="#att"><b>Agility</b></a>. On a success,
+you can choose one of the following effects:
+<br>• The target falls <a href="#aff"><b>prone</b></a> and the grab effect ends.
+<br>• You and the target falls <a href="#aff"><b>prone</b></a>.
+<br>• The target takes 1d6 <a href="#chi"><b>damage</b></a>.
+<br>• If you and the target are both <a href="#aff"><b>prone</b></a>, you pin the
+target. A pinned creature is <a href="#aff"><b>confused</b></a>, <a href="#aff"><b>held</b></a>,
+<a href="#aff"><b>weakened</b></a>, and cannot stand up until the effect
+ends. The target remains until you release it,
+which you can do at any time, you stand up or
+you use an action to do anything other than
+wrestle the target. Also, you release a target
+automatically if you become <a href="#aff"><b>confused</b></a>, <a href="#aff"><b>impaired</b></a>,
+<a href="#aff"><b>stunned</b></a>, or <a href="#aff"><b>weakened</b></a>. <p></p>
+
+<b> Escape</b>
+If you are <a href="#aff"><b>held</b></a> from being grabbed or pinned, you
+can attempt to escape by making a <a href="#att"><b>Strength</b></a> or
+<a href="#att"><b>Agility</b></a> roll against the <a href="#att"><b>Strength</b></a> or <a href="#att"><b>Agility</b></a> of the
+creature that has you <a href="#aff"><b>held</b></a>. On a success, you end
+the <a href="#aff"><b>held</b></a> <a href="#aff"><b>affliction</b></a>. If the result of your roll is 20 or
+higher and exceeds the target number by at least
+5, you can also automatically grab the creature
+that had grabbed you or pin the creature that had
+you pinned provided the creature can be a
+legitimate target for your grab. <p></p>
+
+<h2>Special Attacks</h2> 
+					You might avail yourself of the special attacks
+commonly available to most creatures.
+					<p> <b>Attacking with Two Weapons </b>
+						If you wield two
+						weapons, one in each hand, you can <a href="#atta"><b>attack</b></a> with
+						both weapons at the same time. When you do so,
+						only the properties from the weapon you wield in
+						your main hand apply. If the <a href="#atta"><b>attack</b></a> results in a
+						success, add the <a href="#chi"><b>damage</b></a> from the weapon you
+						wield in your off-hand as extra <a href="#chi"><b>damage</b></a> to the
+						<a href="#atta"><b>attack</b></a>.
+						If you can wield more than two weapons at a
+						time, you can, at most, <a href="#atta"><b>attack</b></a> with two weapons
+						and choose which weapons with which you <a href="#atta"><b>attack</b></a>
+						when you <a href="#atta"><b>attack</b></a>. <p></p>
+
+						<b>Called Shot </b>
+						You make a called shot when you
+						target for a particular location on a target’s body
+						or something the target wears or carries. You roll
+						with 1 <a href="#boon"><b>bane</b></a> when you make a called shot for your
+						<a href="#atta"><b>attack</b></a>. On a success and if you targeted a spot on
+						the target’s body, the target becomes <a href="#aff"><b>impaired</b></a> in
+						an <a href="#att"><b>attribute</b></a> of your choice until the end of your
+						next turn. If you targeted something the target
+						wears or carries, the object takes the <a href="#chi"><b>damage</b></a>
+						instead. <p></p>
+
+						<b>Charge</b>
+						 Use an action to charge one creature or
+						object you can see. Double your Speed score until
+						the end of your turn. If you move toward the target
+						and can reach it before the end of your turn, you
+						can <a href="#atta"><b>attack</b></a> it with a weapon or an unarmed <a href="#atta"><b>attack</b></a>,
+						but you roll with 1 <a href="#boon"><b>bane</b></a>. <p></p>
+
+						<b>Disarm</b> 
+						Use an action to attempt to disarm a
+						creature of your size or smaller when you <a href="#atta"><b>attack</b></a> it.
+						You roll with 1 <a href="#boon"><b>bane</b></a> if you use make a melee
+						<a href="#atta"><b>attack</b></a>, 2 <a href="#boon"><b>banes</b></a> if you use an improvised weapon,
+						or 3 <a href="#boon"><b>banes</b></a> if you use a ranged weapon. On a
+						success, the target takes no <a href="#chi"><b>damage</b></a> (<a href="#chi"><b>bonus damage</b></a> does not apply), but makes an <a href="#att"><b>Agility</b></a> roll
+						and drops one object it holds in its hands on the
+						failure. If you can reach the target, you can use a
+						<a href="#gen"><b>reactions</b></a> to catch the object. If the result of your
+						roll is 20 or higher, the target takes 1d6 <a href="#chi"><b>damage</b></a>.
+
+						
+			</div>
+			</div>
+
+				<!--Reactions-->
+
+		<div class="modal" id="Catch">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Catch</h2>
+				When a thrown object moves into your reach, you
+can use a <a href="#gen"><b>reactions</b></a> to make an <a href="#att"><b>Agility</b></a> roll. If the
+object is a weapon, roll with 1 <a href="#boon"><b>bane</b></a>. On a success,
+you catch the object. On a failure, you miss it and
+the object lands somewhere nearby.
+			</div>
+			</div>
+
+		<div class="modal" id="Cover Ally">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Cover Ally</h2>
+			 When an enemy attacks a target within your reach,
+					you can use a <a href="#gen"><b>reactions</b></a> to switch the enemy’s
+					target from the one the enemy chose to yourself.
+			</div>
+			</div>
+		
+		<div class="modal" id="Dodge">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Dodge</h2>
+				 When a creature attacks you or you make an
+					<a href="#att"><b>Agility</b></a> roll to avoid or mitigate a harmful effect,
+					you can use a <a href="#gen"><b>reactions</b></a> to either impose 1 <a href="#boon"><b>bane</b></a> on
+					the roll or make your roll with 1 <a href="#boon"><b>boon</b></a>.
+			</div>
+			</div>
+
+		<div class="modal" id="Free Attack">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Free Attack</h2>
+				An enemy that willingly moves out of your reach
+					enables you to use a <a href="#gen"><b>reactions</b></a> to <a href="#atta"><b>attack</b></a> it using a
+					melee weapon, natural weapon, improvised
+					weapon, or unarmed <a href="#atta"><b>attack</b></a>.
+			</div>
+			</div>
+
+		<div class="modal" id="Take the Initiative">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Take the Initiative</h2>
+				 If you’re aware of your enemies when a new <a href="#gen"><b>round</b></a>
+					starts, you can use a <a href="#gen"><b>reactions</b></a> to take the initiative,
+					which lets you take a turn immediately before
+					your enemies take their turns. If you and other
+					allies take the initiative, you decide among
+					yourself who goes first as normal, or the Sage does
+					if no one can decide.
+			</div>
+			</div>
+
+		<div class="modal" id="Withstand">
+			<a href="#_" class="modal-close"></a>
+			<div class="modal-dialog">
+				<h2>Withstand</h2>
+				 When you make a <a href="#att"><b>Strength</b></a> roll to avoid an effect
+					or mitigate a harmful effect, you can use a <a href="#gen"><b>reactions</b></a>
+					before the dice are rolled to either impose 1 <a href="#boon"><b>bane</b></a>
+					on the roll or make your roll with 1 <a href="#boon"><b>boon</b></a>.
+			</div>
+			</div>
+
+		<!--End-->	
+</body>
+</html>
